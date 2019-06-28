@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>错误信息</title>
+    <link href="/public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/admin/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/public/admin/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/public/admin/css/animate.css" rel="stylesheet">
+    <link href="/public/admin/css/plugins/treeview/bootstrap-treeview.css" rel="stylesheet">
+    <link href="/public/admin/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+
+    <div class="middle-box text-center animated fadeInDown">
+        <h1>error</h1>
+        <h3 class="font-bold">{{ errorinfo }}</h3>
+
+        <div class="error-desc">
+            <br /><a href="#" class="btn btn-primary m-t">返回</a>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="/public/admin/js/jquery.min.js"></script>
+    <script src="/public/admin/js/bootstrap.min.js"></script>
+    <script>
+        $('.btn-primary').click(function () {
+            window.history.back()
+        })
+    </script>
+
+
+
+</body>
+
+</html>

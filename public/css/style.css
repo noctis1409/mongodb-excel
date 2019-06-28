@@ -1,0 +1,15 @@
+.tac {
+    text-align: center;
+}
+
+.index-content{
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 1000px;
+}
+
+.index-table{
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}

@@ -1,0 +1,34 @@
+{{extend './local/framework.html'}}
+{{block 'content'}}
+
+<div class="index-content">
+    <h3>导出页面</h3>
+    <div class="mt-5">
+        <form action="/export/toexcel" method="POST" class="form-inline">
+            <div class="form-group">
+                <label>mongodbURL:</label>
+                <input type="url" class="form-control ml-3" placeholder="mongodb://localhost:27017/" name="mongodburl">
+            </div>
+            <div class="form-group ml-3">
+                <label>数据库:</label>
+                <input type="text" class="form-control ml-3" placeholder="db" name="db">
+            </div>
+            <div class="form-group ml-3">
+                <label>集合名:</label>
+                <input type="text" class="form-control ml-3" placeholder="collection" name="collection">
+            </div>
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary">导出excel</button>
+                <a href="/" class="btn btn-secondary ml-3">返回</a>
+            </div>
+        </form>
+        {{if succeed}}
+        <div class="alert alert-success alert-dismissible mt-5">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>成功!</strong> 已导入到数据库。
+        </div>
+        {{/if}}
+    </div>
+</div>
+
+{{/block}}
