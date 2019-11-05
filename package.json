@@ -13,7 +13,7 @@
     "koa-static-router": "^1.2.0",
     "md5-node": "^1.0.1",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.7",
+    "mongoose": "^5.7.5",
     "node-xlsx": "^0.15.0"
   },
   "devDependencies": {},
