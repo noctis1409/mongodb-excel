@@ -5,15 +5,15 @@
   "main": "app.js",
   "dependencies": {
     "art-template": "^4.13.2",
-    "koa": "^2.7.0",
+    "koa": "^2.11.0",
     "koa-art-template": "^1.1.1",
-    "koa-multer": "^1.0.2",
     "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
     "koa-router": "^7.4.0",
     "koa-static-router": "^1.2.0",
     "md5-node": "^1.0.1",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.7",
+    "mongoose": "^5.8.7",
     "node-xlsx": "^0.15.0"
   },
   "devDependencies": {},
